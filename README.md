@@ -1,178 +1,207 @@
 # Mac-Mini-Tutorial
 
-1.	Dış Cephesine Bak.
-2.	Port Kontrolleri
-3.	Fan Izgaralarına bak.(Toz)
-4.	Adaptör Kablo fiziki kontrol
-5.	Cihazı açarken 5 10 sn civarında apple logosu gelmeli
-6.	Seri numara kontol
-7.	ICloud testi
-8.	Apple Diagnostics
-9.	SSD testi
 
 
+# 💻 2. EL MAC MINI TEST REHBERİ (ADIM ADIM)
 
+Bu rehber, **ikinci el Mac mini** satın alırken cihazın **donanım, yazılım ve güvenlik** açısından sorunsuz olup olmadığını adım adım kontrol etmen için hazırlanmıştır.
 
+---
 
+## 🟢 1. ADIM – Fiziksel Kontrol (Cihazı Eline Alınca)
 
+### 1. Gövde Kontrolü
+- Alt kısım ve arka tarafı incele:
+  - Ezik, çizik, yamukluk, darbe veya vida izi var mı?
 
+**Durumlar**
+- ➕ Normal: Ufak çizikler olabilir  
+- ❌ Kötü: Gövde eğri, köşelerde ezik, vida izleri (daha önce açılmış olabilir)
 
+### 2. Port Kontrolleri
+- USB, HDMI, Ethernet, kulaklık girişlerini incele
+- Kablo taktığında gevşeklik olmamalı
 
+**Durumlar**
+- ➕ Normal: Kablo sıkı oturur  
+- ❌ Kötü: Kablo sallanınca bağlantı kesiliyor
 
+### 3. Fan Izgaraları (Toz Kontrolü)
+- Aşırı toz = uzun süre bakım yapılmamış → ısınma riski
 
+### 4. Adaptör ve Kablo Kontrolü
+- Yanık izi, siyahlık, koku var mı?
 
+**Durumlar**
+- ➕ Normal: Temiz ve sağlam  
+- ❌ Kötü: Yanık izi veya koku → alma
 
+---
 
+## 🔢 2. ADIM – Seri Numarası Kontrolü
 
+### Seri Numarasını Bulma
+- Cihazın alt kısmında yazar  
+- veya: ** > Bu Mac Hakkında**
 
+### Apple Sitesinde Kontrol
+1. 👉 https://checkcoverage.apple.com/
+2. Seri numarasını gir
+3. Güvenlik kodunu yaz → **Continue**
 
+### Kontrol Sonuçları
+- **Model adı** → Cihazla eşleşmeli
+- **Valid Purchase Date** → Apple tarafından tanınıyor
+- **Repairs and Service Coverage**
+  - Active → Garantili
+  - Expired → Garanti bitmiş (normal)
 
+❌ **Invalid Serial Number** çıkarsa → alma
 
+---
 
+## 🧠 3. ADIM – Açılış Testi
 
+1. Güç kablosunu tak
+2. Açma tuşuna bas
+3. Apple logosu **5–10 saniye içinde** gelmeli
 
-💻 2. EL MAC MINI TEST REHBERİ (ADIM ADIM)
-🟢 1. ADIM – Cihazı eline alınca ilk yapacakların
-1.	Mac mini’yi eline al.
-o	Alt kısmına ve arkasına bak: ezik, çizik, yamukluk, vida izi, darbe izi var mı?
-§	➕ Normal: ufak çizikler olabilir.
-§	❌ Kötü: gövde eğri, köşede ezik, vida izleri (içini açmış olabilir).
-1.	Portları (USB, HDMI, Ethernet, kulaklık girişi) incele.
-o	Hepsi düz olmalı, kablo taktığında gevşeklik olmamalı.
-§	➕ Normal: kablo sıkı oturuyor.
-§	❌ Kötü: kablo sallanınca bağlantı kesiliyor.
-1.	Fan ızgaralarına bak.
-o	Çok tozluysa uzun süre temizlenmemiştir, ısınma sorunu olabilir.
-1.	Adaptör kablosuna bak (varsa).
-o	➕ Normal: temiz, yanık izi yok.
-o	❌ Kötü: ucunda siyahlık veya yanık kokusu varsa alma.
-🔢 2. ADIM – Seri numarasını kontrol et
-1.	Cihazın seri numarasını bul:
-o	Alt kısmında küçük gri yazıyla yazar: “Serial Number: XXXXXXXX…”
-o	Veya cihaz açıkken ekranın sol üst köşesindeki  > Bu Mac Hakkında menüsünden görebilirsin.
-1.	Tarayıcıdan bu siteye git 👉
- 🔗 https://checkcoverage.apple.com/
-2.	Açılan sayfada:
-o	Seri numarasını yaz.
-o	Güvenlik kodunu gir.
-o	“Continue” butonuna bas.
-1.	Karşına bazı bilgiler çıkacak:
-o	Model adı: (örneğin “Mac mini (M1, 2020)”).
-§	➕ Model cihazın üstündekiyle aynı olmalı.
-o	Valid Purchase Date (Satın alma tarihi geçerli)
-§	➕ Yazıyorsa: cihaz Apple tarafından tanınıyor, sahte değil.
-o	Repairs and Service Coverage
-§	“Active” yazıyorsa garantisi var → harika!
-§	“Expired” yazıyorsa garanti bitmiş → normal (ama bilin).
-o	Find My (Bul) etkin mi?
-§	Bu sitede görünmez, ama ileride test edeceğiz.
-❌ Eğer “Invalid Serial Number” veya “Please enter a valid serial” yazarsa → sahte ya da değiştirilmiş cihaz olabilir. Alma.
-🧠 3. ADIM – Açılış testi (güç, sistem, fan)
-1.	Güç kablosunu tak.
-2.	Cihazı aç (arka tuş).
-3.	Bekle: Apple logosu 5–10 saniye içinde gelmeli.
-o	➕ Normal: 10 saniyeden kısa sürede Apple logosu gelir, yüklenir.
-o	❌ Kötü: çok geç açılıyor, bip sesi, siyah ekran, ya da fan gürültüsü → donanım sorunu olabilir.
-1.	Cihaz açıldıktan sonra ekran geliyorsa, macOS normal görünüyorsa iyi.
-🔐 4. ADIM – iCloud / Aktivasyon kilidi testi
-Bu en kritik adımdır! Çünkü cihaz çalıntı olabilir.
-Eğer kurulum ekranı geliyorsa:
-1.	“Select your country / language” ekranından geç →
- Eğer Apple ID (mail) şifresi isteyen ekran gelirse:
- ❌ Kilitli cihaz → ASLA alma.
-Eğer macOS içine girmişsen:
-1.	Sol üstten  > Sistem Ayarları > Apple ID kısmına gir.
-o	Eğer satıcının adı / e-posta adresi görünüyorsa:
- ❌ Satıcı çıkış yapmamış, cihaz hâlâ onun hesabına bağlı.
- Ona “Çıkış yap” de.
-o	Çıkış yaptıktan sonra yeniden başlat → Apple ID istememeli.
-⚙️ 5. ADIM – Apple Diagnostics (donanım testi)
-Bu test Apple’ın kendi iç testidir.
-1.	Cihazı kapat.
-2.	Güç tuşuna basarken aynı anda D tuşunu basılı tut.
-3.	“Apple Diagnostics” yazar veya test otomatik başlar.
-4.	Yaklaşık 2–3 dakika sürer.
-Sonuç ekranı:
-·	“No issues found” veya “All tests passed” → ➕ Her şey sağlam.
-·	“Error code: PPF…” veya benzeri hata kodu → ❌ Arıza var (kod not alın).
-Kod varsa: Apple sitesine hata kodunu yazıp anlamına bak. “PPF” = fan, “PPT” = güç, “VFD” = ekran gibi.
- Donanım hatası varsa almayın veya fiyatı ciddi indirin.
-💽 6. ADIM – Disk (SSD) testi
-1.	Cihaz açıkken: Finder → Uygulamalar → Disk İzlencesi (Disk Utility) aç.
-2.	Solda “Macintosh HD” yazan diski seç.
-3.	Üstte “İlk Yardım (First Aid)” butonuna tıkla → “Çalıştır (Run)” de.
-4.	İşlem 1–2 dakika sürecek.
-Sonuç:
-·	➕ “Disk başarıyla doğrulandı / Onarım başarılı.” → Tamam.
-·	⚠️ “Uyarılar var ama onarıldı.” → İdare eder, dikkat et.
-·	❌ “Onarım başarısız oldu / Disk hatalı.” → Disk arızalı, alma.
-🧩 7. ADIM – Bağlantı portlarını test et
-1.	Her USB girişine bir şey tak (örneğin USB bellek, fare, klavye).
-o	Finder’da USB bellek görünmeli.
-1.	HDMI çıkışını monitöre veya TV’ye tak.
-o	Görüntü hemen gelmeli.
-1.	Ethernet (kablolu internet) varsa tak, “Yeşil nokta” yanmalı (Sistem Ayarları > Ağ).
-Sonuç:
-·	➕ Tüm portlar çalışıyor → iyi.
-·	❌ Bazı portlar çalışmıyor → anakartta arıza olabilir, tamiri pahalı.
-🔊 8. ADIM – Ses, mikrofon, Wi-Fi ve Bluetooth
-1.	YouTube aç, bir video oynat.
-o	➕ Ses net geliyorsa tamam.
-o	❌ Cızırtı, yankı varsa hoparlör sorunu.
-1.	Kulaklık tak, ses geliyor mu dinle.
-o	❌ Tek kulaktan geliyorsa jack arızalı.
-1.	Wi-Fi’ye bağlan, birkaç site aç (örnek: apple.com, youtube.com).
-o	➕ Sorunsuz bağlanıyorsa tamam.
-o	❌ Sürekli kopuyorsa Wi-Fi anteni arızalı olabilir.
-1.	Bluetooth cihazı (telefon, kulaklık) bağla.
-o	➕ Bağlanıyorsa tamam.
-o	❌ Bağlanmıyorsa veya kopuyorsa donanım problemi olabilir.
-🌡️ 9. ADIM – Isınma ve fan sesi
-1.	Aynı anda birkaç şey aç: Safari (3 sekme), YouTube videosu, bir film dosyası.
-2.	Elini üst kısmına koy, fan sesini dinle.
-o	➕ Hafif ısınma ve yumuşak fan sesi = normal.
-o	❌ Aşırı sıcak, yanma kokusu, “cırt” ya da “tık tık” sesi = fan veya termal sorun.
-💾 10. ADIM – Sistem bilgileri kontrolü
-1.	Sol üstten  > Bu Mac Hakkında seç.
-o	Burada göreceksin:
-§	Mac mini (Yıl, Çip türü) → örnek: “Mac mini (M1, 2020)”
-§	Bellek (RAM) → en az 8 GB olmalı.
-§	Depolama → 256 GB veya daha fazlası tercih edilir.
-1.	Sistem Raporu tuşuna bas:
-o	“Denetleyiciler” kısmında “T2 Security Chip” yazıyorsa: güzel (ek güvenlik).
-o	Yoksa da sorun değil ama yeni modellerde olur.
-📊 11. ADIM – Disk Hız testi (isteğe bağlı ama faydalı)
-1.	“Blackmagic Disk Speed Test” uygulamasını Mac App Store’dan indir.
-2.	Aç → “Select Target Drive” kısmında ana diski seç → “Start”a tıkla.
-3.	Test 1 dakika sürer.
-o	➕ M1/M2 modellerde 2000 MB/s civarı okuma-yazma = çok iyi.
-o	⚠️ 500 MB/s altı = yavaş SSD (eski model).
-o	❌ 100 MB/s civarı = SSD sorunlu veya bozulmak üzere.
-⚠️ 12. ADIM – Son kontrol (reddetme sebepleri)
-Aşağıdakilerden biri bile varsa ASLA ALMA:
-·	iCloud hesabı aktif veya Apple ID şifre istiyor.
-·	Apple Diagnostics hata kodu verdi.
-·	Disk İzlencesi “Onarım başarısız” dedi.
-·	Portlardan biri bile çalışmıyor.
-·	Aşırı ısınma / fan sesleri var.
-·	“Seri numarası geçersiz” veya Apple sitesinde çıkmıyor.
-·	Satıcı “sıfırlamayalım, sonra yaparsın” diyorsa → reddet.
-🧾 13. ADIM – Satın alma sırasında
-1.	Satıcıdan seri numarasını fatura veya satış belgesine yazmasını iste.
-2.	Ödemeyi banka üzerinden yap (nakitte mutlaka yazılı belge al).
-3.	Son kez sıfırlama yaptır:
-o	Ayarlar > Genel > Aktar veya Mac’i Sıfırla > Tüm İçeriği ve Ayarları Sil
-o	Kurulum ekranı geldiğinde durdur, cihazın tamamen sana ait olduğuna emin ol.
-✅ KISACA “GEÇTİ / KALDI” ÖZETİ
-Test	Beklenen Sonuç	Sonuç Kötüyse
-Fiziksel Durum	Ufak çizikler normal	Ezik / yamuk → alma
-Seri Numarası	Apple sitesinde geçerli	Geçersiz → alma
-iCloud	Kapalı / Sıfırlanmış	Açık → alma
-Disk	First Aid başarılı	Hata → alma
-Apple Diagnostics	“No issues found”	Hata kodu → alma
-Fan / Isı	Sessiz / normal ısınma	Aşırı sıcak / ses → alma
-Portlar	Hepsi çalışıyor	Çalışmayan varsa pazarlık veya alma
-Wi-Fi / Bluetooth	Kopmadan bağlanıyor	Sürekli kopuyorsa alma
+**Durumlar**
+- ➕ Normal: Hızlı açılır
+- ❌ Kötü: Geç açılma, siyah ekran, bip sesi, aşırı fan sesi
 
+---
 
+## 🔐 4. ADIM – iCloud / Aktivasyon Kilidi (ÇOK ÖNEMLİ)
 
+### Kurulum Ekranı Gelirse
+- Apple ID / şifre istiyorsa → ❌ **ASLA ALMA**
+
+### macOS İçindeyse
+1. ** > Sistem Ayarları > Apple ID**
+2. Satıcının hesabı görünüyorsa:
+   - Çıkış yaptır
+   - Yeniden başlat
+   - Tekrar Apple ID istememeli
+
+---
+
+## ⚙️ 5. ADIM – Apple Diagnostics (Donanım Testi)
+
+1. Cihazı kapat
+2. Açarken **D tuşuna basılı tut**
+3. Test 2–3 dakika sürer
+
+### Sonuçlar
+- ➕ `No issues found` → Sorun yok
+- ❌ Hata kodu (PPF, PPT, VFD vb.) → Donanım arızası
+
+---
+
+## 💽 6. ADIM – SSD (Disk) Testi
+
+1. **Finder > Uygulamalar > Disk İzlencesi**
+2. `Macintosh HD` seç
+3. **İlk Yardım (First Aid) > Çalıştır**
+
+### Sonuçlar
+- ➕ Başarıyla doğrulandı
+- ⚠️ Uyarılar onarıldı
+- ❌ Onarım başarısız → alma
+
+---
+
+## 🧩 7. ADIM – Port Testleri
+
+- Tüm USB portlarına cihaz tak
+- HDMI ile görüntü al
+- Ethernet bağla (yeşil ışık yanmalı)
+
+❌ Portlardan biri çalışmıyorsa → anakart arızası olabilir
+
+---
+
+## 🔊 8. ADIM – Ses, Wi-Fi, Bluetooth
+
+- YouTube videosu aç → ses net mi?
+- Kulaklık tak → iki kulaktan geliyor mu?
+- Wi-Fi’ye bağlan → kopma var mı?
+- Bluetooth cihaz bağla → stabil mi?
+
+---
+
+## 🌡️ 9. ADIM – Isınma ve Fan
+
+- Aynı anda:
+  - Safari (3 sekme)
+  - YouTube
+  - Video dosyası aç
+
+**Durumlar**
+- ➕ Hafif ısınma, yumuşak fan sesi
+- ❌ Aşırı sıcaklık, cızırtı, tıkırtı
+
+---
+
+## 💾 10. ADIM – Sistem Bilgileri
+
+** > Bu Mac Hakkında**
+- Model ve yıl
+- RAM: En az 8 GB önerilir
+- Depolama: 256 GB ve üzeri tercih edilir
+
+**Sistem Raporu**
+- T2 Security Chip varsa ➕ ekstra güvenlik
+
+---
+
+## 📊 11. ADIM – Disk Hız Testi (Opsiyonel)
+
+- App Store → **Blackmagic Disk Speed Test**
+- Testi başlat
+
+**Hızlar**
+- ➕ 2000 MB/s → Çok iyi (M1/M2)
+- ⚠️ 500 MB/s altı → Eski / yavaş
+- ❌ 100 MB/s → SSD sorunlu
+
+---
+
+## ⚠️ 12. ADIM – ASLA ALMA SEBEPLERİ
+
+Aşağıdakilerden **biri bile varsa** alma:
+
+- iCloud / Apple ID kilidi
+- Apple Diagnostics hata kodu
+- Disk onarım başarısız
+- Çalışmayan port
+- Aşırı ısınma / fan sesi
+- Geçersiz seri numarası
+- Satıcının sıfırlamaya yanaşmaması
+
+---
+
+## 🧾 13. ADIM – Satın Alma Anı
+
+1. Seri numarasını belgeye yazdır
+2. Ödemeyi banka üzerinden yap
+3. Son kez sıfırlat:
+   - **Ayarlar > Genel > Aktar veya Mac’i Sıfırla**
+4. Kurulum ekranında bırak → satın al
+
+---
+
+## ✅ GEÇTİ / KALDI ÖZETİ
+
+| Test | Beklenen | Kötüyse |
+|----|----|----|
+| Fiziksel Durum | Ufak çizikler | Ezik → alma |
+| Seri No | Apple’da geçerli | Geçersiz → alma |
+| iCloud | Kapalı | Açık → alma |
+| Disk | First Aid başarılı | Hata → alma |
+| Diagnostics | No issues | Hata kodu |
+| Fan / Isı | Normal | Aşırı sıcak |
+| Portlar | Hepsi çalışıyor | Arızalı |
+| Wi-Fi / BT | Stabil | Kopma |
+
+---
